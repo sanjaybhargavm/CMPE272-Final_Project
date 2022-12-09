@@ -9,3 +9,5 @@ Running the Project:
 6. account details: 
 username: admin,employee,user1,user2
 password: admin,employee,user,user
+
+link to application zip file: https://drive.google.com/file/d/1sKRnbOIK4-WYqdxgLvP8wJd6jeGLRT1Y/view?usp=sharing
