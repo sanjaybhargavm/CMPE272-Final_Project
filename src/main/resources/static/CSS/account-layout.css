@@ -1,0 +1,151 @@
+@charset "ISO-8859-1";
+
+/*----------------------- CONTENT LAYOUT ------------------------ */
+body {
+	font-family: Helvetica, sans-serif;
+	background: url("/Images/library.jpg") no-repeat center center fixed;
+	background-size: 100%;
+	background-size: 100%;
+}
+
+.container {
+	border-radius: 5px;
+	background-color: #b2b4b4;
+	padding: 20px;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	min-width: 1200px;
+	color: white;
+}
+
+/* ----------------------- NAVIGATION BAR ----------------------- */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #b0b089;
+	border-radius: 4px;
+	margin-top: 20px;
+	margin-right: 10%;
+	margin-left: 10%;
+	min-width: 1235px;
+	color: white;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #65513c;
+	color: rgba(180, 169, 169, 0.851);
+}
+
+/* ----------------------------- FORMS ----------------------------- */
+input[type=text], input[type=password], input[type=email], input[type=number],
+	input[type=date], select, textarea {
+	width: 200px;
+	padding: 12px;
+	border: 1px solid rgb(134, 84, 84);
+	border-radius: 4px;
+	resize: vertical;
+}
+
+label {
+	padding: 12px 12px 12px 0;
+	display: inline-block;
+}
+
+input[type=submit] {
+	background-color: #818581;
+	color: rgb(161, 158, 158);
+	padding: 12px;
+	width: 150px;
+	margin-top: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
+
+.col-25 {
+	float: left;
+	width: 100px;
+	margin-top: 6px;
+	color: white;
+}
+
+.col-75 {
+	float: left;
+	width: 250px;
+	margin-top: 6px;
+	color: white;
+}
+
+.col-50 {
+	float: left;
+	width: 175px;
+	margin-top: 6px;
+	color: white;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+	color: white;
+}
+
+/* ------------------- TABLE STYLE ------------------*/
+#tablestyle {
+	border-collapse: collapse;
+	width: 98%;
+	color: white;
+}
+
+#tablestyle td, #tablestyle th {
+	border: 1px solid #ddd;
+	padding: 8px;
+	font-size: 12px;
+	color: white;
+}
+
+#tablestyle tr:nth-child(even) {
+	background-color: rgba(161, 158, 158, 0.873);
+	color: white;
+}
+
+#tablestyle tr:hover {
+	background-color: rgba(208, 203, 203, 0.811);
+	color: white;
+}
+
+#tablestyle th {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	text-align: left;
+	background-color: #fff;
+	color: rgb(9, 9, 9);
+}
+
+input[type=submit].table {
+	background-color: rgb(126, 155, 126);
+	color: rgb(19, 19, 19);
+	padding: 5px;
+	width: 150px;
+	margin-top: 8px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: left;
+}
